@@ -1,5 +1,6 @@
 *{
 margin: 0;
+font-family: 'Open Sans', sans-serif;
 }
 /* banner part */
 .banner-container{
@@ -37,3 +38,47 @@ text-align: right;
 }
 
 /* body first */
+
+.body-first{
+    display: flex;
+    align-items: center;
+    margin: 100px 150px;
+}
+
+.writing{
+    padding-left: 80px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight:900;
+    padding-bottom: 40px;
+}
+
+.description, .item{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444343;
+    padding: 5px 0;
+}
+
+/* body second */
+.second-container{
+    text-align: center;
+}
+.second-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+    
+}
+
+.subtitle{
+    font-weight: 900;
+    color: #151414;
+    padding: 5px;
+}
+.description-second{
+    font-size: 22px;
+    color: #737272;
+}

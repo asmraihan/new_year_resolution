@@ -1,9 +1,10 @@
-*{
-margin: 0;
-font-family: 'Open Sans', sans-serif;
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
 /* banner part */
-.banner-container{
+.banner-container {
     background-image: url(/images/banner/banner1.png);
     background-size: cover;
     background-blend-mode: overlay;
@@ -11,23 +12,23 @@ font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
 
-.banner-elements{
-text-align: right;
-}  
+.banner-elements {
+    text-align: right;
+}
 
-.banner-title{
+.banner-title {
     font-size: 60px;
     font-weight: 700;
     padding-top: 180px;
     padding-right: 180px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 15px;
     padding: 25px 180px;
 }
 
-.contact-button{
+.contact-button {
     font-size: 20px;
     color: white;
     background-color: #F15B22;
@@ -39,23 +40,24 @@ text-align: right;
 
 /* body first */
 
-.body-first{
+.body-first {
     display: flex;
     align-items: center;
     margin: 100px 150px;
 }
 
-.writing{
+.writing {
     padding-left: 80px;
 }
 
-.title{
+.title {
     font-size: 50px;
-    font-weight:900;
+    font-weight: 900;
     padding-bottom: 40px;
 }
 
-.description, .item{
+.description,
+.item {
     font-size: 16px;
     font-weight: bold;
     color: #444343;
@@ -63,22 +65,121 @@ text-align: right;
 }
 
 /* body second */
-.second-container{
+.second-container {
     text-align: center;
 }
-.second-list{
+
+.second-list {
     display: flex;
     justify-content: space-around;
     padding: 0 200px;
-    
+
 }
 
-.subtitle{
+.subtitle {
     font-weight: 900;
     color: #151414;
     padding: 5px;
 }
-.description-second{
+
+.description-second {
     font-size: 22px;
     color: #737272;
 }
+
+/* second banner start */
+
+.lower-banner {
+    background-image: url(/images/watch.png), url("/images/gradient2.png");
+    background-blend-mode:overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 130px;
+
+}
+
+.lower-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 30px 120px;
+    padding-top: 50px;
+}
+
+.lower-button {
+    font-size: 20px;
+    font-weight: 900;
+    color: #F15B22;
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 120px;
+}
+
+/* footer start */
+
+.footer-container{
+    display: flex;
+    background-color: #151414;
+    height: 500px;
+    width: 100%;
+
+    
+}
+.left-footer{
+    padding: 100px;
+}
+
+.right-footer{
+    padding: 100px 150px;
+}
+
+.footer-title{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.right-footer-title{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.footer-decription{
+    color: white;
+    padding: 10px;
+}
+
+.social{
+    display: flex;
+    padding: 10px;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.mailbox{
+    height: 60px;
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-indent: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.footer-button{
+    font-size: 20px;
+    font-weight: 900;
+    color: #F15B22;
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+

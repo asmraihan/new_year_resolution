@@ -1,0 +1,39 @@
+*{
+margin: 0;
+}
+/* banner part */
+.banner-container{
+    background-image: url(/images/banner/banner1.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-elements{
+text-align: right;
+}  
+
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 180px;
+    padding-right: 180px;
+}
+
+.banner-description{
+    font-size: 15px;
+    padding: 25px 180px;
+}
+
+.contact-button{
+    font-size: 20px;
+    color: white;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 180px;
+}
+
+/* body first */

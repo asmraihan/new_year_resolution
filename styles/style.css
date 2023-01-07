@@ -22,10 +22,12 @@
     padding-top: 180px;
     padding-right: 180px;
 }
-.primary{
-    color: #ff4d00 ;
+
+.primary {
+    color: #ff4d00;
     font-weight: 900;
 }
+
 .banner-description {
     font-size: 15px;
     padding: 25px 180px;
@@ -60,18 +62,19 @@
     padding-bottom: 40px;
 }
 
-.item-list{
-    list-style:none;
+.item-list {
+    list-style: none;
     text-indent: -40px;
 }
+
 ul li:before {
     content: '✓ ';
     color: rgb(0, 255, 0);
-  }
+}
 
 .description,
 .item {
-    
+
     font-size: 16px;
     font-weight: bold;
     color: #444343;
@@ -106,7 +109,7 @@ ul li:before {
 
 .lower-banner {
     background-image: url('../images/watch.png'), url('../images/gradient2.png');
-    background-blend-mode:overlay;
+    background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
@@ -135,50 +138,51 @@ ul li:before {
 
 /* footer start */
 
-.footer-container{
+.footer-container {
     display: flex;
     background-color: #151414;
     height: 500px;
     width: 100%;
 
-    
+
 }
-.left-footer{
+
+.left-footer {
     padding: 100px;
 }
 
-.right-footer{
+.right-footer {
     padding: 100px 150px;
 }
 
-.footer-title{
+.footer-title {
     color: white;
     font-size: 45px;
     font-weight: 700;
     padding: 10px;
 }
 
-.right-footer-title{
+.right-footer-title {
     color: white;
     font-size: 25px;
     padding: 5px 0;
 }
 
-.footer-decription{
+.footer-decription {
     color: white;
     padding: 10px;
 }
 
-.social{
+.social {
     display: flex;
     padding: 5px 0 0 0;
 }
 
-.icon{
+.icon {
     padding: 5px;
 }
 
-.mailbox{
+.mailbox {
     height: 60px;
     width: 300px;
     margin-bottom: 15px;
@@ -191,9 +195,10 @@ ul li:before {
     background-color: #151414;
     border-style: solid;
     margin-top: 30px;
-    
+
 }
-.footer-button{
+
+.footer-button {
     font-size: 20px;
     font-weight: 900;
     color: #F15B22;
@@ -240,8 +245,8 @@ ul li:before {
 }
 
 .hobby {
-    box-shadow: 4px 4px 8px rgb(117, 117, 117);
-    background-color: white;
+    box-shadow: 5px 5px 10px rgb(189, 185, 185);
+    background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 5px;
     padding: 20px;
@@ -252,6 +257,6 @@ ul li:before {
 }
 
 .hobby-logo {
-    width: 85px;
+    width: 100px;
     padding: 20px;
 }

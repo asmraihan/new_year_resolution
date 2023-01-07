@@ -62,13 +62,16 @@
 
 .item-list{
     list-style:none;
+    text-indent: -40px;
 }
 ul li:before {
     content: '✓ ';
+    color: rgb(0, 255, 0);
   }
 
 .description,
 .item {
+    
     font-size: 16px;
     font-weight: bold;
     color: #444343;
@@ -94,7 +97,8 @@ ul li:before {
 }
 
 .description-second {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 700;
     color: #737272;
 }
 

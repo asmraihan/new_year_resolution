@@ -22,7 +22,10 @@
     padding-top: 180px;
     padding-right: 180px;
 }
-
+.primary{
+    color: #ff4d00 ;
+    font-weight: 900;
+}
 .banner-description {
     font-size: 15px;
     padding: 25px 180px;
@@ -30,6 +33,7 @@
 
 .contact-button {
     font-size: 20px;
+    font-weight: 900;
     color: white;
     background-color: #F15B22;
     padding: 20px 25px;
@@ -43,7 +47,7 @@
 .body-first {
     display: flex;
     align-items: center;
-    margin: 100px 150px;
+    margin: 100px 100px 0 150px;
 }
 
 .writing {
@@ -55,6 +59,13 @@
     font-weight: 900;
     padding-bottom: 40px;
 }
+
+.item-list{
+    list-style:none;
+}
+ul li:before {
+    content: '✓ ';
+  }
 
 .description,
 .item {
@@ -146,7 +157,7 @@
 .right-footer-title{
     color: white;
     font-size: 25px;
-    padding: 10px;
+    padding: 5px 0;
 }
 
 .footer-decription{
@@ -156,7 +167,7 @@
 
 .social{
     display: flex;
-    padding: 10px;
+    padding: 5px 0 0 0;
 }
 
 .icon{
@@ -167,10 +178,16 @@
     height: 60px;
     width: 300px;
     margin-bottom: 15px;
+    color: #F3F3F3;
     font-size: 18px;
     text-indent: 15px;
     font-weight: 700;
     border-radius: 8px;
+    border: #FFFFFF;
+    background-color: #151414;
+    border-style: solid;
+    margin-top: 30px;
+    
 }
 .footer-button{
     font-size: 20px;
@@ -183,3 +200,54 @@
 }
 
 
+
+/* hobby section start  */
+
+.hobby-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby-left {
+    width: 30%;
+}
+
+.title-hobby {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+}
+
+.description-hobby {
+    font-size: 20px;
+    padding: 12px;
+    color: rgb(61, 61, 61);
+}
+
+.hobby-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.hobby {
+    box-shadow: 4px 4px 8px rgb(117, 117, 117);
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.hobby-logo {
+    width: 85px;
+    padding: 20px;
+}
